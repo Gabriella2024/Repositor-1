@@ -93,7 +93,16 @@ class Test_Books():
         limit = ""
         book_type = "fiction"
         response = self.books.get_api_books_by_filter(limit, book_type)
+        book_list = response.json()
+        is_type_corect = True
+        for i in range(len(book_list)):
+            if book_list[i]["type"] != "fiction":
+                is_type_corect = False
+
+
+
         assert response.status_code == 200, f"status code is not the same "
+        assert is_type_corect == True, "at least one book has an other type"
 
 
     def test_books_by_filter_type_non_fiction(self):
