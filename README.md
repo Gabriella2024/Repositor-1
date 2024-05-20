@@ -1,6 +1,36 @@
 This repository is my exam paper, I make back-end testing for the API Simple-books-api in Phycharm.
 https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md -link to the Simple books API
 
+Prerequisites:
+
+It is necessary to have installed python 3.11 and pip.
+
+python 3.11
+Check if you already have Python installed running the Terminal command: python --version. If the result shows a version number, Python is already installed. If not, you can download it 
+here: https://www.python.org/downloads/
+
+pip
+Check if you have already pip installed running the Terminal command: pip --version. If the result shows a version number, pip is installed and there is no need for further actions. If 
+not, instructions for downloading the latest version of pip can be found here: https://pip.pypa.io/en/stable/cli/pip_download/
+Pip is the package manager for Python. It is used to install and update packages in a virtual environment.
+
+Running the tests :
+
+After creating the project file in Pycharm, I created the 2 Pyton files, one for the definition of variables, constants and the other one for tests in Python.
+![image](https://github.com/Gabriella2024/Repositor-1/assets/167851863/20850ffe-b3c9-4092-8d41-f3c7ad2928d0)
+
+To run any test, found in the tests folder you can run the corresponding file.
+![image](https://github.com/Gabriella2024/Repositor-1/assets/167851863/47510065-0fa0-4bf5-bdb3-19a869bc78ef)
+
+
+To generate the report, run the Terminal command:
+
+pytest --html=report.html
+
+
+![2](https://github.com/Gabriella2024/Repositor-1/assets/167851863/829c25d3-e298-4614-83c1-fb15fba605dd)
+
+
 
 I found 3 bugs:
 
