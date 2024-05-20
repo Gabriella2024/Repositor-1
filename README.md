@@ -16,7 +16,7 @@ Pip is the package manager for Python. It is used to install and update packages
 
 Running the tests :
 
-After creating the project file in Pycharm, I created the 2 Pyton files, one for the definition of variables, constants and the other one for tests in Python.
+After creating the project file in Pycharm, I created the 2 Pyton files, one for the definition of variables, constants and the other one for tests.
 ![image](https://github.com/Gabriella2024/Repositor-1/assets/167851863/20850ffe-b3c9-4092-8d41-f3c7ad2928d0)
 
 To run any test, found in the tests folder you can run the corresponding file.
@@ -26,9 +26,6 @@ To run any test, found in the tests folder you can run the corresponding file.
 To generate the report, run the Terminal command:
 
 pytest --html=report.html
-
-
-![2](https://github.com/Gabriella2024/Repositor-1/assets/167851863/829c25d3-e298-4614-83c1-fb15fba605dd)
 
 
 
