@@ -5,11 +5,11 @@ Prerequisites:
 
 It is necessary to have installed python 3.11 and pip.
 
-python 3.11
+python 3.11/
 Check if you already have Python installed running the Terminal command: python --version. If the result shows a version number, Python is already installed. If not, you can download it 
 here: https://www.python.org/downloads/
 
-pip
+pip/
 Check if you have already pip installed running the Terminal command: pip --version. If the result shows a version number, pip is installed and there is no need for further actions. If 
 not, instructions for downloading the latest version of pip can be found here: https://pip.pypa.io/en/stable/cli/pip_download/
 Pip is the package manager for Python. It is used to install and update packages in a virtual environment.
